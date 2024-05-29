@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+html{
+    font-size: 70%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 100;
+}
+body{
+    color: white;
+    background-image: linear-gradient(84deg, #1eb2d5, #152964);
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,47 @@
+.Epcard{
+    width: 20%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    padding-bottom: 1rem;
+    background-color: #00000038;
+    border-radius: 1rem;
+    gap: 0.7rem;
+    border: 2px solid white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Epcard img{
+    width: 95%;
+    object-fit: contain;
+    height: 50vh;
+}
+.Epcard-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+}
+.Epcard-cont  h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Epcard-cont  h2 {
+    color: rgb(255, 181, 8);
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Epcard-cont button{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 2px solid;
+    background-color: #3fc7ff69;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
