@@ -16,3 +16,6 @@
     align-items: center;
     font-size: 3rem;
 }
+@media only screen and (width<=600px){
+    
+}

@@ -15,7 +15,6 @@ const Ep = () => {
              // get epoisode
             try {
             const data=await gogoanime.fetchAnimeInfo(id)
-                console.log(data);
                 const episode=data.episodes;
                 const img=data.image;
                 Setimage(img)
@@ -27,6 +26,7 @@ const Ep = () => {
         
     }
     useEffect(() => {
+        window.scrollTo(0, 0);
     getep();
     }, [])
     

@@ -2,7 +2,7 @@ import React from 'react'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import "../Styles/Footer.css"
+import "../Style/Footer.css"
 const Footer = () => {
   return (
     <div className='Footer-Main'>

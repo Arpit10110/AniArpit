@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    margin-top: 5rem;
+    margin-top:4rem;
     gap: 3rem;
     padding-bottom: 5rem;
     justify-content: center;
@@ -15,4 +15,37 @@
     justify-content: center;
     align-items: center;
     font-size: 3rem;
+}
+.search {
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input {
+    width: 30%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    border: 2px solid;
+}
+@media only screen and (width<=600px){
+    .search input {
+        width: 69%;
+        padding: 0.5rem;
+        font-size: 1.7rem;
+        border-radius: 2rem;
+        border: 2px solid;
+    }
+    .home-wrapper {
+        flex-direction: column;
+    }
+    .card {
+        width: 75%;
+    }
+    .card img {
+        width: 90%;
+        height: 60vh;
+    }
 }

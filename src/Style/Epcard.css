@@ -45,3 +45,12 @@
     cursor: pointer;
     font-weight: bold;
 }
+@media only screen and (width<=600px){
+    .Epcard{
+        width:75%;
+    }
+    .Epcard img{
+        width: 90%;
+        height: 60vh;
+    }
+}
