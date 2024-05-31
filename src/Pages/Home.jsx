@@ -9,6 +9,8 @@ const Home = () => {
     const [InSearch,SetInSearch] = useState("");
     const [LValue,SetLValue]= useState("Loading...")
     const getdata = async()=>{ 
+        SetLoading(true)
+        SetLValue("Loading...")
         let Search="";
         if(InSearch=="")
         {
